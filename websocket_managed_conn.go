@@ -584,4 +584,6 @@ var EventMapping = map[string]interface{}{
 
 	"desktop_notification":       DesktopNotificationEvent{},
 	"mobile_in_app_notification": MobileInAppNotificationEvent{},
+
+	"workflow_step_execute": WorkflowStepExecuteEvent{},
 }
